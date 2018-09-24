@@ -1,15 +1,35 @@
+body {
+  margin: 0;
+}
+
 .App {
   background: #1f2535;
   color: white;
+  padding: 1vw;
 }
 
 .Nav {
   display: flex;
   justify-content: space-between;
+  background: #1f2535;
 }
 
 .Top {
-  margin-top: 15vh;
+  margin-top: 10vh;
+  padding-right: 73vw;
+  padding-left: 5vw;
+  background: #1f2535;
+}
+
+.Top > h1 {
+  font-size: 4vw;
+  margin-bottom: 0;
+}
+
+.Top > p {
+  font-size: 1vw;
+  margin-top: 0;
+  padding-right: 8vw;
 }
 
 .Top > button {
@@ -18,3 +38,11 @@
   font-size: 1vw;
   margin-top: 5vh;
 }
+
+.Bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40vh;
+  text-align: center;
+}
+
